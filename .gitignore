@@ -1,0 +1,31 @@
+# Secrets - never commit these
+.env
+*.pem
+*.key
+
+# Vector index (rebuild with: python -m backend.rag.ingest --force)
+data/faiss_index/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and scratch
+*.log
+scratch/

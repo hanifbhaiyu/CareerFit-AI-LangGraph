@@ -1,0 +1,52 @@
+# Minimum versions only, so pip picks builds that match your Python version.
+# Pinning exact versions breaks on Python 3.13+ because older wheels
+# (notably faiss-cpu) were never published for those versions.
+
+# Instruct pip to use the CPU-only PyTorch repository
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# --- Web layer ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.20
+streamlit>=1.41.0
+requests>=2.32.0
+
+# --- LLM, agents, orchestration ---
+langchain>=0.3.14
+langchain-core>=0.3.29
+langchain-community>=0.3.14
+langchain-google-genai>=2.0.8
+langchain-text-splitters>=0.3.5
+langgraph>=0.2.62
+google-genai>=0.8.0
+
+# --- Tracing ---
+langsmith>=0.2.10
+
+# --- Vector store ---
+faiss-cpu>=1.9.0
+
+# --- OCR and document parsing ---
+pytesseract>=0.3.13
+Pillow>=11.0.0
+pypdf>=5.1.0
+pypdfium2>=4.30.0
+
+# --- Internet search ---
+tavily-python>=0.5.0
+ddgs>=9.0.0
+
+# --- Config ---
+python-dotenv>=1.0.1
+pydantic>=2.10.0
+
+# --- Fallback LLM Providers ---
+langchain-openrouter>=0.1.0
+langchain-nvidia-ai-endpoints>=0.1.0
+langchain-openai>=0.2.0
+
+# --- Local Embeddings (CPU-Only PyTorch) ---
+torch>=2.2.0
+langchain-huggingface>=0.1.2
+sentence-transformers>=3.0.0
