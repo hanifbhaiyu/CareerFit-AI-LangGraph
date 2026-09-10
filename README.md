@@ -1,3 +1,8 @@
+GitHub: https://github.com/hanifbhaiyu/CareerFit-AI-LangGraph
+
+YouTube: https://youtu.be/KSfk9gqqo6g
+
+
 # CareerFit AI
 
 A multi-agent career assistant that reads your CV, compares it against live job market data, and tells you what to fix and what to learn next.
@@ -279,7 +284,7 @@ See `.env.example` for the full annotated list. `.env` is gitignored and no key 
 
 
 
-**GitHub: https://github.com/hanifbhaiyu/CareerFit-AI-LangGraph
+GitHub: https://github.com/hanifbhaiyu/CareerFit-AI-LangGraph
 
 YouTube: https://youtu.be/KSfk9gqqo6g
 
