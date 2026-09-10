@@ -279,19 +279,8 @@ See `.env.example` for the full annotated list. `.env` is gitignored and no key 
 
 
 
-**GitHub: https://github.com/hanifbhaiyu/careerfit-ai_C223403
+**GitHub: https://github.com/hanifbhaiyu/CareerFit-AI-LangGraph
 
-YouTube: 
+YouTube: https://youtu.be/KSfk9gqqo6g
 
-Trace 1 - CV Review (RAG + multi-agent):
 
-https://smith.langchain.com/public/d505e719-b1de-45cf-ac2a-6e072d4cec0b/r/01a077c2-b94c-71b1-8784-02a9edc6ae8a?start_time=2026-09-06T17%3A27%3A25.260131Z
-
-Trace 2 - Job Match (internet search):
-
-https://smith.langchain.com/public/d754c031-8a96-4488-b23b-674082b74cde/r/01a07804-bcb4-7293-bb96-dd4d56cd3f71?start_time=2026-09-06T18%3A39%3A31.508963Z
-
-Trace 3 - Salary (Google grounding):
-
-https://smith.langchain.com/public/34247fe4-ceb8-43c4-89ce-3be2a08883b1/r/01a07805-ffeb-7221-8c24-d9f056a6783c?start_time=2026-09-06T18%3A40%3A54.251627Z
-**
